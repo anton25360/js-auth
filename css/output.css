@@ -24,5 +24,10 @@ body {
 #loginForm span {
   color: black;
 }
+#loginForm form .inputContainer {
+  display: inline-block;
+  border: 2px solid red;
+  text-align: left;
+}
 
 /*# sourceMappingURL=output.css.map */

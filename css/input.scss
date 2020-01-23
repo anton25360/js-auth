@@ -30,4 +30,12 @@ body{
         color: black;
     }
 
+    form{
+        .inputContainer{
+            display: inline-block;
+            border: 2px solid red;
+            text-align: left;
+        }
+    }
+
 }
