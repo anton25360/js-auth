@@ -18,6 +18,7 @@ body {
   display: inline-block;
   background-color: whitesmoke;
   border-radius: 5px;
+  padding: 20px;
 }
 #loginForm h1 {
   color: black;
