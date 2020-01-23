@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/output.css">
-    <script src="main.js" ></script>
+    <script src="main.js"></script>
     <title>Auth</title>
 </head>
+
 <body>
 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBBz_3lLce46zN-EZxwzHlN8CIBk3aWD04",
+            authDomain: "auth-fa028.firebaseapp.com",
+            databaseURL: "https://auth-fa028.firebaseio.com",
+            projectId: "auth-fa028",
+            storageBucket: "auth-fa028.appspot.com",
+            messagingSenderId: "497973187036",
+            appId: "1:497973187036:web:74c2702ef74cae6400ff19",
+            measurementId: "G-CXVYD2E6J6"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+
     <h1>Log In</h1>
-    
+
 </body>
+
 </html>
