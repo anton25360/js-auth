@@ -7,9 +7,18 @@
 
 *{
     font-family: 'pro';
+    // box-sizing: content-box;
 }
 
 body{
+    background-color: black;
+    text-align: center;
+
+}
+
+#loginForm{
+    padding: 10px;
+    display: inline-block;
     background-color: gray;
     text-align: center;
 

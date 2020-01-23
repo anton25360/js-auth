@@ -9,13 +9,20 @@
 }
 
 body {
+  background-color: black;
+  text-align: center;
+}
+
+#loginForm {
+  padding: 10px;
+  display: inline-block;
   background-color: gray;
   text-align: center;
 }
-body h1 {
+#loginForm h1 {
   color: turquoise;
 }
-body span {
+#loginForm span {
   color: black;
 }
 
