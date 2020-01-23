@@ -37,12 +37,12 @@
     </script>
 
     <div id="loginForm">
-        <h1>Welcome to <span>Auth.</span></h1>
-        <p>some text here about what the app does and other stuff.</p>
+        <h1>Welcome to <span id="auth">Auth.</span></h1>
+        <p>Easy authenication with <span id="fire">Firebase</span></p><br/>
 
         <form>
             <div class="inputContainer">
-                <label>Name</label><br/>
+                <label>Username</label><br/>
                 <input type="text">
             </div>
 
@@ -50,9 +50,18 @@
             <br/>
 
             <div class="inputContainer">
-                <label>Name</label><br/>
-                <input type="text">
+                <label>Password</label><br/>
+                <input type="password">
             </div>
+
+            <br/>
+            <br/>
+            <br/>
+
+            <input id="enter" type="submit" value="Login">
+
+            <br/>
+            <br/>
         </form>
     </div>
 

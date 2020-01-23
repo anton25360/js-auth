@@ -9,25 +9,43 @@
 }
 
 body {
-  background-color: black;
+  background-color: lightblue;
   text-align: center;
 }
 
 #loginForm {
   padding: 10px;
   display: inline-block;
-  background-color: gray;
+  background-color: whitesmoke;
+  border-radius: 5px;
 }
 #loginForm h1 {
-  color: turquoise;
-}
-#loginForm span {
   color: black;
+}
+#loginForm #auth {
+  color: blue;
+}
+#loginForm #fire {
+  color: #f8591f;
 }
 #loginForm form .inputContainer {
   display: inline-block;
-  border: 2px solid red;
   text-align: left;
+}
+#loginForm form .inputContainer input {
+  margin-top: 2px;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: transparent;
+  font-size: 18px;
+}
+#loginForm form #enter {
+  background-color: blue;
+  color: whitesmoke;
+  padding: 6px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=output.css.map */

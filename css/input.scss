@@ -5,13 +5,15 @@
     src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
   }
 
+$primaryColor : blue;
+
 *{
     font-family: 'pro';
     // box-sizing: content-box;
 }
 
 body{
-    background-color: black;
+    background-color: lightblue;
     text-align: center;
 
 }
@@ -19,22 +21,44 @@ body{
 #loginForm{
     padding: 10px;
     display: inline-block;
-    background-color: gray;
+    background-color: whitesmoke;
+    border-radius: 5px;
     // text-align: center;
 
     h1{
-        color: turquoise;
+        color: black;
     }
 
-    span{
-        color: black;
+    #auth{
+        color: $primaryColor;
+    }
+
+    #fire{
+        color: rgb(248, 89, 31);
     }
 
     form{
         .inputContainer{
             display: inline-block;
-            border: 2px solid red;
+            // border: 2px solid red;
             text-align: left;
+
+            input{
+                margin-top: 2px;
+                border: 1px solid gray;
+                border-radius: 2px;
+                background-color: transparent;
+                font-size: 18px;
+            }
+        }
+
+        #enter{
+            background-color: $primaryColor;
+            color: whitesmoke;
+            padding: 6px 25px;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
         }
     }
 
