@@ -40,8 +40,11 @@ body {
 #loginForm h1 {
   color: black;
 }
-#loginForm #auth {
+#loginForm #auth, #loginForm #signup {
   color: blue;
+}
+#loginForm #subtext {
+  color: #333333;
 }
 #loginForm #fire {
   color: #f8591f;

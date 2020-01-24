@@ -6,6 +6,7 @@
   }
 
 $primaryColor : blue;
+$secondaryyColor : rgb(51, 51, 51);
 
 *{
     font-family: 'pro';
@@ -45,8 +46,12 @@ body{
         color: black;
     }
 
-    #auth{
+    #auth, #signup{
         color: $primaryColor;
+    }
+
+    #subtext{
+        color: $secondaryyColor;
     }
 
     #fire{
