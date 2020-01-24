@@ -1,9 +1,9 @@
-function authenticateUser() {
+function authenticateUser(event) {
 
-    
+    event.preventDefault()    
 
-    let username = document.getElementById('userInput').value
-    let password = document.getElementById('pwInput').value
+    let username = document.getElementById('usernameInput').value
+    let password = document.getElementById('passwordInput').value
 
     console.log(username);
     console.log(password);

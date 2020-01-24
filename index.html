@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/output.css">
-    <script src="js/main.js"></script>
+    <script defer src="js/main.js"></script>
     <title>Auth</title>
 </head>
 
@@ -39,10 +39,10 @@
         <h1>Welcome to <span id="auth">Auth.</span></h1>
         <p>Easy authenication with <span id="fire">Firebase</span></p><br/>
 
-        <form onsubmit="authenticateUser()">
+        <form onsubmit="getCredentials(event)">
             <div class="inputContainer">
                 <label for="nameInput">Username</label><br/>
-                <input type="text" id="nameInput" required>
+                <input type="text" id="usernameInput" required>
             </div>
 
             <br/>
@@ -50,7 +50,7 @@
 
             <div class="inputContainer">
                 <label for="pwInput">Password</label><br/>
-                <input type="password" id="pwInput" required>
+                <input type="password" id="passwordInput" required>
             </div>
 
             <br/>
