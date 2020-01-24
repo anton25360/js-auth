@@ -21,8 +21,18 @@ body{
     background-image : linear-gradient(315deg, #B06AB3 0%, #4568DC 74%);
     height: 100vh;
     text-align: center;
-    margin: 20px;
+    // margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 #loginForm{
     padding: 20px;
