@@ -1,4 +1,4 @@
-function authenticateUser(event) {
+function getCredentials(event) {
 
     event.preventDefault()    
 
