@@ -39,18 +39,18 @@
         <h1>Welcome to <span id="auth">Auth.</span></h1>
         <p>Easy authenication with <span id="fire">Firebase</span></p><br/>
 
-        <form>
+        <form onsubmit="authenticateUser()">
             <div class="inputContainer">
-                <label>Username</label><br/>
-                <input type="text">
+                <label for="nameInput">Username</label><br/>
+                <input type="text" id="nameInput">
             </div>
 
             <br/>
             <br/>
 
             <div class="inputContainer">
-                <label>Password</label><br/>
-                <input type="password">
+                <label for="pwInput">Password</label><br/>
+                <input type="password" id="pwInput">
             </div>
 
             <br/>
