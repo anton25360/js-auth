@@ -1,8 +1,6 @@
 function signupFunction(event) {
     event.preventDefault()
 
-    // window.location.replace("/account.html");
-
     let form = document.querySelector('#signupForm')
 
     let email = form['signupEmail'].value
