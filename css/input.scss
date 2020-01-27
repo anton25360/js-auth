@@ -28,11 +28,11 @@ body{
     align-items: center;
 }
 
-.parent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+// .parent {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
 
 #loginContainer{
     padding: 20px;
@@ -58,7 +58,7 @@ body{
         color: rgb(248, 89, 31);
     }
 
-    #loginForm{
+    #loginForm, #signupForm{
         .inputContainer{
             display: inline-block;
             text-align: left;

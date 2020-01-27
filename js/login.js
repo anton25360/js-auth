@@ -1,4 +1,4 @@
-function getCredentials(event) {
+function loginFunction(event) {
     event.preventDefault()
        
     // window.location.replace("/account.html");

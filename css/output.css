@@ -23,12 +23,6 @@ body {
   align-items: center;
 }
 
-.parent {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 #loginContainer {
   padding: 20px;
   display: inline-block;
@@ -49,18 +43,18 @@ body {
 #loginContainer #fire {
   color: #f8591f;
 }
-#loginContainer #loginForm .inputContainer {
+#loginContainer #loginForm .inputContainer, #loginContainer #signupForm .inputContainer {
   display: inline-block;
   text-align: left;
 }
-#loginContainer #loginForm .inputContainer input {
+#loginContainer #loginForm .inputContainer input, #loginContainer #signupForm .inputContainer input {
   margin-top: 2px;
   border: 1px solid gray;
   border-radius: 2px;
   background-color: transparent;
   font-size: 18px;
 }
-#loginContainer #loginForm #enter {
+#loginContainer #loginForm #enter, #loginContainer #signupForm #enter {
   background-color: blue;
   color: whitesmoke;
   padding: 6px 25px;
