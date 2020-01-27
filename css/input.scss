@@ -34,7 +34,7 @@ body{
     align-items: center;
   }
 
-#loginForm{
+#loginContainer{
     padding: 20px;
     display: inline-block;
     background-color: whitesmoke;
@@ -58,7 +58,7 @@ body{
         color: rgb(248, 89, 31);
     }
 
-    form{
+    #loginForm{
         .inputContainer{
             display: inline-block;
             text-align: left;

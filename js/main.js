@@ -10,4 +10,6 @@ function getCredentials(event) {
        
     // window.location.replace("/account.html");
 
+    const form = document.querySelector('#loginForm')
+
 }

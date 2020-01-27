@@ -35,11 +35,11 @@
         firebase.analytics();
     </script>
 
-    <div id="loginForm">
+    <div id="loginContainer">
         <h1>Welcome to <span id="auth">Auth.</span></h1>
         <p>Easy authenication with <span id="fire">Firebase</span></p><br/>
 
-        <form onsubmit="getCredentials(event)">
+        <form id="loginForm" onsubmit="getCredentials(event)">
             <div class="inputContainer">
                 <label for="nameInput">Username</label><br/>
                 <input type="text" id="usernameInput" required>
