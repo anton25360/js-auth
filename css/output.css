@@ -54,7 +54,7 @@ body {
   background-color: transparent;
   font-size: 18px;
 }
-#loginContainer #loginForm #enter, #loginContainer #signupForm #enter {
+#loginContainer #loginForm .btn, #loginContainer #signupForm .btn {
   background-color: blue;
   color: whitesmoke;
   padding: 6px 25px;
