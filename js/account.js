@@ -1,1 +1,5 @@
-console.log('welcome to your account');
+auth.onAuthStateChanged(function(user) {
+    if (user) {
+        document.querySelector('#emailTarget').innerHTML = user.email
+    }
+})
