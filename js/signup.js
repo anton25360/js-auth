@@ -23,6 +23,7 @@ function signupFunction(event) {
                 console.log('');
             } else {
                 alert('Account created, you may now log in.')
+                window.location.replace("/index.html");
             }
         })
 
