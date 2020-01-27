@@ -1,17 +1,23 @@
 function loginFunction(event) {
     event.preventDefault()
-       
-    // window.location.replace("/account.html");
 
     let form = document.querySelector('#loginForm')
 
     let email = form['loginEmail'].value
     let password = form['loginPassword'].value
 
-    console.log(email, password);  
+    auth.signInWithEmailAndPassword(email, password)
+        .catch(error => {
 
-    auth.createUserWithEmailAndPassword(email, password).then(cred => {
-        console.log(cred);
-    })
+            alert(error.message);
+            
+        })
 
+        .then(cred => {
+            
+            if (cred == null) {} else {
+                alert('logged in')
+                window.location.replace("/account.html");
+            }
+        })
 }
