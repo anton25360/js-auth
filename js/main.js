@@ -1,6 +1,6 @@
 function getCredentials(event) {
 
-    event.preventDefault()    
+    event.preventDefault()
 
     let username = document.getElementById('usernameInput').value
     let password = document.getElementById('passwordInput').value
@@ -8,4 +8,6 @@ function getCredentials(event) {
     console.log(username);
     console.log(password);
        
+    // window.location.replace("/account.html");
+
 }
