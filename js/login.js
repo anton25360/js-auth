@@ -10,6 +10,8 @@ function getCredentials(event) {
 
     console.log(user, pass);  
 
-    firebase
+    auth.createUserWithEmailAndPassword(user, pass).then(cred => {
+        console.log(cred);
+    })
 
 }
