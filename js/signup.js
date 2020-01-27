@@ -1,6 +1,6 @@
 function signupFunction(event) {
     event.preventDefault()
-       
+
     // window.location.replace("/account.html");
 
     let form = document.querySelector('#signupForm')
@@ -8,13 +8,22 @@ function signupFunction(event) {
     let email = form['signupEmail'].value
     let password = form['signupPassword'].value
 
-    console.log(email, password);  
+    console.log(email, password);
 
-    auth.createUserWithEmailAndPassword(email, password).catch(error => {
-        // console.log(error);
-        console.log(error.message);
-        
-        
-    })
+    auth.createUserWithEmailAndPassword(email, password)
+        .catch(error => {
+
+            alert(error.message);
+            
+        })
+
+        .then(cred => {
+            
+            if (cred == null) {
+                console.log('');
+            } else {
+                alert('Account created, you may now log in.')
+            }
+        })
 
 }
