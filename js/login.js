@@ -3,14 +3,14 @@ function loginFunction(event) {
        
     // window.location.replace("/account.html");
 
-    const form = document.querySelector('#loginForm')
+    let form = document.querySelector('#loginForm')
 
-    const user = form['loginUsername'].value
-    const pass = form['loginPassword'].value
+    let email = form['loginEmail'].value
+    let password = form['loginPassword'].value
 
-    console.log(user, pass);  
+    console.log(email, password);  
 
-    auth.createUserWithEmailAndPassword(user, pass).then(cred => {
+    auth.createUserWithEmailAndPassword(email, password).then(cred => {
         console.log(cred);
     })
 

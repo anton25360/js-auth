@@ -3,14 +3,14 @@ function signupFunction(event) {
        
     // window.location.replace("/account.html");
 
-    const form = document.querySelector('#signupForm')
+    let form = document.querySelector('#signupForm')
 
-    const user = form['signupUsername'].value
-    const pass = form['signupPassword'].value
+    let email = form['signupEmail'].value
+    let password = form['signupPassword'].value
 
-    console.log(user, pass);  
+    console.log(email, password);  
 
-    auth.createUserWithEmailAndPassword(user, pass).catch(error => {
+    auth.createUserWithEmailAndPassword(email, password).catch(error => {
         // console.log(error);
         console.log(error.message);
         
