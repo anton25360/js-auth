@@ -16,7 +16,7 @@ function loginFunction(event) {
         .then(cred => {
             
             if (cred == null) {} else {
-                alert('logged in')
+                alert('Success! You are now logged in.')
                 window.location.replace("/account.html");
             }
         })

@@ -16,7 +16,7 @@ function signupFunction(event) {
         .then(cred => {
             
             if (cred == null) {} else {
-                alert('Account created, you may now log in.')
+                alert('Account created, redirecting you to login page.')
                 window.location.replace("/index.html");
             }
         })
