@@ -5,4 +5,4 @@ auth.onAuthStateChanged(function(user) {
     }
 })
 
-//todo: make logout work, add account error messages if user inst loggied in, fix logs and alerts.
+//todo: make logout work, add account error messages if user inst loggied in, fix logs and alerts. fix signu btn on submit
