@@ -11,11 +11,8 @@ auth.onAuthStateChanged(function(user) {
 })
 
 function logout() {
-    console.log('go away');
     auth.signOut().then(()=>{
         window.location.replace("/");
     })
     
 }
-
-//todo: make logout work, add account error messages if user inst loggied in, fix logs and alerts. fix signu btn on submit
