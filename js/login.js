@@ -17,8 +17,7 @@ function loginFunction(event) {
             
             if (cred == null) {} else {
                 alert('Success! You are now logged in.')
-                // window.location.replace("/account.html");
-                window.location.replace("/js-auth/account.html");
+                window.location.replace("/account.html");
             }
         })
 }
