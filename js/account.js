@@ -12,7 +12,7 @@ auth.onAuthStateChanged(function(user) {
 
 function logout() {
     auth.signOut().then(()=>{
-        window.location.replace("/");
+        window.location.replace("/js-auth/");
     })
     
 }
