@@ -28,12 +28,6 @@ body{
     align-items: center;
 }
 
-// .parent {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
-
 #loginContainer{
     padding: 20px;
     display: inline-block;
@@ -71,16 +65,6 @@ body{
                 font-size: 18px;
             }
         }
-
-        // .btn{
-        //     background-color: $primaryColor;
-        //     color: whitesmoke;
-        //     padding: 6px 25px;
-        //     border: none;
-        //     border-radius: 5px;
-        //     font-size: 15px;
-        //     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        // }
     }
 
     .btn{
