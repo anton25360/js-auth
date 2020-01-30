@@ -17,7 +17,7 @@ function signupFunction(event) {
             
             if (cred == null) {} else {
                 alert('Account created, redirecting you to login page.')
-                window.location.replace("/index.html");
+                window.location.replace("https://anton25360.github.io/js-auth/index.html");
             }
         })
 
