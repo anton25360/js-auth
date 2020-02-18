@@ -21,3 +21,7 @@ function loginFunction(event) {
             }
         })
 }
+
+function loginFunctionGoogle() {
+    alert('google!')
+}
